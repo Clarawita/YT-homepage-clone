@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<head>
+  <title>Youtube Clone</title>
+  <link rel="stylesheet" href="youtube-video.css">
+  <link rel="stylesheet" href="youtube-header.css">
+  <link rel="stylesheet" href="youtube-general.css">
+  <link rel="stylesheet" href="youtube-sidebar.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat
+  :wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel=
+  "stylesheet">
+</head>
+<body>
+
+  <div class="header">
+    <div class="left-section">
+      <div class="hamburger-container">
+        <img class="hamburger-menu" src="icon/hamburger-menu.svg">
+      </div>
+      <div class="youtube-logo-container">
+        <a href="https://www.youtube.com/">
+          <img class="youtube-logo" src="icon/youtube-logo.svg">
+        </a>
+      </div>
+    </div>
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="search-button">
+        <img class="search-icon" src="icon/search.svg">
+        <div class="tooltip">Search</div>
+      </button>
+      <button class="voice-search-button">
+        <img class="voice-search-icon" src="icon/voice-search-icon.svg">
+        <div class="tooltip">Search with your voice</div>
+      </button>
+    </div>
+    <div class="right-section">
+      <div class="upload-icon-container">
+        <img class="upload-icon" src="icon/upload.svg">
+        <div class="tooltip">Create</div>
+      </div>
+      <div class="youtube-app-icon-container">
+        <img class="youtube-app-icon" src="icon/youtube-apps.svg">
+        <div class="tooltip">Youtube apps</div>
+      </div>
+      <div class="notification-icon-container">
+        <img class="notification-icon" src="icon/notifications.svg">
+        <div class="notification-ballon">
+          3
+        </div>
+        <div class="tooltip">Notifications</div>
+      </div>
+      <div class="user">
+        <img class="current-user-picture" src="channelPic/unnamed.jpg">
+      </div>
+    </div>
+  </div>
+
+  <div class="sidebar">
+    <div class="sidebar-link">
+      <img src="icon/home.svg">
+      <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icon/explore.svg">
+      <div>Explore</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icon/subscriptions.svg">
+      <div>Subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icon/originals.svg">
+      <div>Originals</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icon/youtube-music.svg">
+      <div>Youtube Music</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icon/library.svg">
+      <div>Library</div>
+    </div>
+  </div>
+
+  <div class="video-grid">
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://youtu.be/n2RNcPRtAiY?si=od8nLyf84S_1Df3g">
+          <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+        </a>
+        <div class="video-time">
+          14.20
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <a href="https://www.youtube.com/@mkbhd">
+            <img class="profile-picture" src="channelPic/channel-1.jpeg">
+          </a>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+          </p>
+          <p class="video-author">
+            Marques Brownlee
+          </p>
+          <p class="video-stats">
+            4,2M views · 2 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/live/AIDBHwRoK9s?si=2MumdSraXH-sSzcK">
+          <img class="thumbnail" src="thumbnails/windah.webp">
+        </a>
+        <div class="video-time">
+          33.49
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <a href="https://www.youtube.com/@WindahBasudara">
+            <img class="profile-picture" src="channelPic/channels4_profile.jpg">
+          </a>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            ADA BONEKA MENGERIKAN DI RUMAH INI! Doll House
+          </p>
+          <p class="video-author">
+            Windah Basudara
+          </p>
+          <p class="video-stats">
+            2M views · 1 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=o4bAoo_gFBU">
+          <img class="thumbnail" src="thumbnails/hq720.webp">
+        </a>
+        <div class="video-time">
+          24.11
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <a href="https://www.youtube.com/@JennyslecturesCSIT" >
+            <img class="profile-picture" src="channelPic/channels5_profile.jpg">
+          </a>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            7.3 Bubble Sort Algorithm| Data Structures Tutorials
+          </p>
+          <p class="video-author">
+            Jenny's Lecturer CS IT
+          </p>
+          <p class="video-stats">
+            1.2M views · 4 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=6K_P3geJTls">
+          <img class="thumbnail" src="thumbnails/hq722.webp">
+        </a>
+        <div class="video-time">
+          8.43
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <a href="https://www.youtube.com/@roses_are_rosie">
+            <img class="profile-picture" src="channelPic/channels7_profile.jpg">
+          </a>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Paris vlog
+          </p>
+          <p class="video-author">
+            Rosesarerosie
+          </p>
+          <p class="video-stats">
+            1.3M views · 3 days ago
+          </p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=isgSOR7KuvI">
+          <img class="thumbnail" src="thumbnails/hq721.webp">
+        </a>
+        <div class="video-time">
+          17.43
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <a href="https://www.youtube.com/@FutureCanoe">
+            <img class="profile-picture" src="channelPic/channels6_profile.jpg">
+          </a>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            10 Viral Shin Ramen Recipes (New)
+          </p>
+          <p class="video-author">
+            FutureCanoe
+          </p>
+          <p class="video-stats">
+            736K views · 13 days ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=D8VEhcPeSlc&list=RDD8VEhcPeSlc&start_radio=1">
+          <img class="thumbnail" src="thumbnails/hqdefault.jpg">
+        </a>
+        <div class="video-time">
+          3.47
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <a href="https://www.youtube.com/@SMTOWN">
+            <img class="profile-picture" src="channelPic/channels8_profile.jpg">
+          </a>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            aespa 에스파 'Drama' MV
+          </p>
+          <p class="video-author">
+            SMTOWN
+          </p>
+          <p class="video-stats">
+            67M views · 3 weeks ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://youtu.be/mP0RAo9SKZk?si=CzY8QEw0nfEDVCRz">
+          <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+        </a>
+        <div class="video-time">
+          8.22
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <a href="https://www.youtube.com/@markiplier" >
+            <img class="profile-picture" src="channelPic/channel-2.jpeg">
+          </a>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Try Not To Laugh Challenge #9
+          </p>
+          <p class="video-author">
+            Markiplier
+          </p>
+          <p class="video-stats">
+            20M views · 6 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=p3Aj1iIZzpc">
+          <img class="thumbnail" src="thumbnails/aq720.webp">
+        </a>
+        <div class="video-time">
+          1.18.53
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <a href="https://www.youtube.com/@HollowPoiint">
+            <img class="profile-picture" src="channelPic/channels9_profile.jpg">
+          </a>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            a horror game about a kidnap incident.. | The Kidnap | 誘拐事件
+          </p>
+          <p class="video-author">
+            Hollow
+          </p>
+          <p class="video-stats">
+            199K views · 11 days ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=caC919Poryg">
+          <img class="thumbnail" src="thumbnails/bq720.webp">
+        </a>
+        <div class="video-time">
+          26.09
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <a href="https://www.youtube.com/@Thewizardliz">
+            <img class="profile-picture" src="channelPic/channels10_profile.jpg">
+          </a>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            How to stop being lazy and pathetic
+          </p>
+          <p class="video-author">
+            Thewizardliz
+          </p>
+          <p class="video-stats">
+            4M views · 5 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc">
+          <img class="thumbnail" src="thumbnails/cq720 (1).webp">
+        </a>
+        <div class="video-time">
+          6.31.24
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <a href="https://www.youtube.com/@SuperSimpleDev">
+            <img class="profile-picture" src="channelPic/aunnamed.jpg">
+          </a>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            HTML 7 CSS Full Course - Beginner to Pro
+          </p>
+          <p class="video-author">
+            SuperSimpleDev
+          </p>
+          <p class="video-stats">
+            7,5M views · 1 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=mAJlZUKhOGs">
+          <img class="thumbnail" src="thumbnails/dq720.webp">
+        </a>
+        <div class="video-time">
+          11.16
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <a href="https://www.youtube.com/@rachelhow">
+            <img class="profile-picture" src="channelPic/channels11_profile (1).jpg">
+          </a>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            I Challenged Myself To Win A Hackathon
+          </p>
+          <p class="video-author">
+            Rachel How
+          </p>
+          <p class="video-stats">
+            102K views · 1 month ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=Zv9LGNlDUks">
+          <img class="thumbnail" src="thumbnails/eqdefault.webp">
+        </a>
+        <div class="video-time">
+          10.54
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <a href="https://www.youtube.com/@RubyGranger8">
+            <img class="profile-picture" src="channelPic/channels12_profile.jpg">
+          </a>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            6:30am Oxford Student Morning Routine
+          </p>
+          <p class="video-author">
+            Ruby Granger
+          </p>
+          <p class="video-stats">
+            475K views · 1 month ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
